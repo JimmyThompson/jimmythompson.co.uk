@@ -1,0 +1,16 @@
+---
+layout: main
+title: Blog
+---
+<section class="fixed-width">
+  <h1>Blog</h1>
+  <ul class="listing">
+    {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="excerpt">{{ post.excerpt }}</div>
+      <span class="date">{{ post.date | date: "%e %B, %Y" }} &bull; <a class="button" href="{{ post.url }}">Read more...</a></span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

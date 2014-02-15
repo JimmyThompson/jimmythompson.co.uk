@@ -1,0 +1,46 @@
+@import url("http://fonts.googleapis.com/css?family=PT+Serif:400,700");
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+$main-font: 'PT Serif', serif;
+$header-font: 'Montserrat', sans-serif;
+$code-font: 'Monaco', 'Consolas', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+
+@mixin headings($from: 1, $to: 6){
+    @for $i from $from through $to{
+      h#{$i}{
+        @content
+      }
+    }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin selection {
+    ::-moz-selection { @content; }
+    ::selection { @content; }
+}
+
+.spacing {
+  margin: 20px 0px;
+}
+
+.fixed-width {
+  max-width: 800px;
+  margin: 0px auto;
+  overflow: hidden;
+
+  @media (max-width: 800px) {
+    padding: 0px 20px;
+  }
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 20px 0px;
+}

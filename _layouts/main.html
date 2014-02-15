@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} &ndash; {% endif %}{{ site.name }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{page.description}}" />
+    {% else %}
+    <meta name="description" content="{{site.description}}" />
+    {% endif %}
+    {% if page.date %}<meta http-equiv="date" content="{{page.date |date: '%A, %d  %Y %H:%M:%S GMT'}}" />{% endif %}
+    <link href="/images/favicon.ico" rel="icon" type="images/x-icon" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="/style/reset.css" rel="stylesheet" type="text/css" />
+    <link href="/style/main.css" rel="stylesheet" type="text/css" />
+    <link href="/style/highlight.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="fixed-width">
+      <header>
+        <a href="/"><img src="{{ site.email | to_gravatar }}" alt="Jimmy Thompson" /></a>
+        <ul>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/projects">Projects</a></li>
+        </ul>
+      </header>
+    </div>
+    {{ content }}
+    <div class="fixed-width">
+      <footer>
+        <ul class="unstyled">
+          <li><a href="//twitter.com/jimmythompson">Twitter</a></li>
+          <li><a href="//github.com/JimmyThompson">GitHub</a></li>
+          <li><a href="//uk.linkedin.com/pub/james-thompson/44/765/374">LinkedIn</a></li>
+          <li><a href="//stackoverflow.com/users/1162899/jimmy-thompson">Stack Overflow</a></li>
+          <li><a href="//careers.stackoverflow.com/jimmythompson">SO Careers</a></li>
+        </ul>
+      </footer>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+  </body>
+</html>

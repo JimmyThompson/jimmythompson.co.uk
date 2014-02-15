@@ -1,0 +1,31 @@
+.highlight {
+
+  $color-comment: slategray;
+  $color-punctuation: #999999;
+  $color-keyword: #07A;
+  $color-operator: #A67F59;
+  $color-literal: #905;
+  $color-string: #690;
+
+  .c, .cm, .cp, .c1, .cs {
+    color: $color-comment;
+  }
+
+  .k, .kc, .kd, .kn, .kp, .kr, .kt {
+    color: $color-keyword;
+    font-weight: bold;
+  }
+
+  .o, .ow {
+    color: $color-operator;
+  }
+
+  .m, .mf, .mh, .mi, .mo, .il {
+    color: $color-literal;
+  }
+
+  .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss {
+    color: $color-string;
+  }
+
+}

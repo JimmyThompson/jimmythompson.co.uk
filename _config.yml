@@ -1,0 +1,13 @@
+markdown: rdiscount
+pygments: true
+permalink: /blog/:year/:month/:day/:title
+rdiscount:
+  extensions: [smart]
+
+url: http://jimmythompson.co.uk
+name: "Jimmy Thompson - Student, Software Developer"
+description: "The personal website and blog of Jimmy Thompson, a software developer and Computer Science student from Manchester, in the United Kingdom."
+twitter: jimmythompson
+github: JimmyThompson
+facebook: JimmyThompsonUK
+email: jimmy@jimmythompson.co.uk
