@@ -129,12 +129,16 @@ header {
 
   ul {
     float: right;
-  }
 
-  li {
-    display: inline-block;
-    float: left;
-    padding: 25px 20px;
+    li {
+      display: inline-block;
+      float: left;
+      padding: 25px 20px;
+
+      &:nth-last-child(1) {
+        padding-right: 0px;
+      }
+    }
   }
 }
 
