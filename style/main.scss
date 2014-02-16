@@ -135,6 +135,10 @@ header {
       float: left;
       padding: 25px 20px;
 
+      @media (max-width: 450px) {
+        padding: 25px 10px;
+      }
+
       &:nth-last-child(1) {
         padding-right: 0px;
       }
