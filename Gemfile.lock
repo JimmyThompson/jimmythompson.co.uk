@@ -8,6 +8,7 @@ GEM
     commander (4.1.6)
       highline (~> 1.6.11)
     fast-stemmer (1.0.2)
+    ffi (1.9.3)
     ffi (1.9.3-x86-mingw32)
     highline (1.6.20)
     jekyll (1.4.2)
@@ -48,9 +49,11 @@ GEM
     sass (3.2.14)
     toml (0.1.0)
       parslet (~> 1.5.0)
+    yajl-ruby (1.1.0)
     yajl-ruby (1.1.0-x86-mingw32)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
