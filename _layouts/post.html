@@ -3,13 +3,14 @@ layout: main
 ---
 <article class="fixed-width">
 <h1>{{ page.title }}</h1>
+{% if page.description %}<p><strong>{{ page.description }}</strong></p>{% endif %}
 {% if page.image %}<img src="{{ page.image }}" alt="{{ page.title }}" />{% endif %}
 {{ content }}
 <div class="share-bar">
-  <span class="date">Published {{ page.date | date: "%B %e, %Y" }}</span>
+  <span class="date"><span class="detail">Published</span> {{ page.date | date: "%B %e, %Y" }}</span>
   <ul>
-    <li><a class="popup" href="//twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter }}" target="_blank"><i class="fa fa-twitter fa-fw"></i><span> Share on Twitter</span></a></li>
-    <li><a class="popup" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank"><i class="fa fa-facebook fa-fw"></i><span> Share on Facebook</span></a></li>
+    <li><a class="popup" href="//twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter }}" target="_blank"><i class="fa fa-twitter fa-fw"></i><span class="detail"> Share on Twitter</span></a></li>
+    <li><a class="popup" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank"><i class="fa fa-facebook fa-fw"></i><span class="detail"> Share on Facebook</span></a></li>
   </ul>
 </div>
 </article>

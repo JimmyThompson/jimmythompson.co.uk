@@ -43,6 +43,10 @@ blockquote {
   @extend .spacing;
   font-size: 1.4em;
   padding: 0px 40px;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 }
 
 @include headings() {
@@ -177,12 +181,13 @@ section {
           background: #999999;
         }
 
-        span {
-          @media (max-width: 800px) {
-            display: none;
-          }
-        }
       }
+    }
+  }
+
+  span.detail {
+    @media (max-width: 800px) {
+      display: none;
     }
   }
 }
