@@ -1,4 +1,4 @@
- $('.popup').click(function(event) {
+$('.popup').click(function(event) {
     var width  = 575,
         height = 260,
         left   = ($(window).width()  - width)  / 2,
