@@ -1,6 +1,7 @@
 @import "library";
 
-$text-color: #333332;
+$title-color: #333332;
+$text-color:  #4E5860;
 
 html,  {
   min-height: 100%;
@@ -10,11 +11,11 @@ html,  {
 body {
   @extend html;
 
-  border-top: 8px solid $text-color;
+  border-top: 8px solid $title-color;
   color: $text-color;
   font: {
     family: $main-font;
-    size: 1.5em;
+    size: 1.4em;
   }
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -22,15 +23,15 @@ body {
 }
 
 a {
-  border-bottom: 1px dotted $text-color;
-  color: inherit;
+  border-bottom: 1px dotted $title-color;
+  color: $title-color;
   display: inline-block;
   padding: 0px 2px;
   text-decoration: none;
   transition: all 0.25s ease 0s;
 
   &:hover {
-    border-bottom: 1px solid $text-color;
+    border-bottom: 1px solid $title-color;
   }
 }
 
@@ -55,6 +56,7 @@ blockquote {
     family: $header-font;
     weight: 700;
   }
+  color: $title-color;
 }
 
 h1 {
@@ -172,7 +174,8 @@ section {
       display: inline-block;
 
       a {
-        background: $text-color;
+        background: $title-color;
+        color: #ffffff;
         display: block;
         padding: 5px 10px;
         border: 0px;
