@@ -14,8 +14,9 @@ body {
   border-top: 8px solid $title-color;
   color: $text-color;
   font: {
-    family: $main-font;
+    family: "Lato", Arial, sans-serif;
     size: 1.4em;
+    weight: 300;
   }
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -119,13 +120,13 @@ p {
 
   font: {
     family: $code-font;
-    size: 0.5em;
+    size: 0.55em;
   }
 
   margin: 20px 20px;
   overflow: hidden;
   overflow-x: auto;
-  padding: 20px;
+  padding: 15px 20px;
 
   code {
     float: left;
