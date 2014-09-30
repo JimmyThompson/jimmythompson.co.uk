@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/jimmythompson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jimmythompson.co.uk
+  * I am jimmythompson (https://keybase.io/jimmythompson) on keybase.
+  * I have a public key with fingerprint FB08 062B F27C 0172 53DD  1ADF 59EC BE95 3993 6DEE
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "fb08062bf27c017253dd1adf59ecbe9539936dee",
+            "host": "keybase.io",
+            "key_id": "59ecbe9539936dee",
+            "uid": "66abb35f3de2005f61e06ca648e57a00",
+            "username": "jimmythompson"
+        },
+        "service": {
+            "hostname": "jimmythompson.co.uk",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1412101462,
+    "expire_in": 157680000,
+    "prev": "e16504c902355de48c7e8cf83d99d1af6947afdf5245834437224fbb208e1c71",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.0.5
+Comment: https://keybase.io/crypto
+
+yMHsAnicbZFpSFRRFMdnyZZxK9CKCKQ3ZNsob18GyRZGpcSixAyk6S33jU+dec+Z
+N2ODzYAGUWFBi21CuFAgFVZkEUUjKiUWiGEiopSG9cFBKSoMUrtP6lv3y+We8/v/
+z7nn9CZbTTbz0fjLRu6yd8b8pms+aCre/qOkFhFUKYw4a5FKsHTJis8D/Jpf8emI
+E5EFlEVpXJBxRkQxBqcIScJ4SaY4IAqAowiOI2gJAMSBlKsBQwFtBD4AshUVxuDD
+rUgw+h8+uJSgaV4QCEomJICjKCXTGEBpkadJFlAMj6IGGAB+H+8FkK5QvN6wXq56
+tYDqQyIOBKZCigiMxo36/8OyRTU7WAl9NL+qq6JaBYFyXdechl4Pa4agBgjuv1Zu
+QfFJcAZQEAL+gALrODFIirpieGMkhmMoRtK4AwEnNMUP3IpBUAzNovAYZUAIWgKM
+plBS5FCcoCgJkKzIAFaUWULiODhCmeZIhpfhJHGSYgmSJBgcJ2VBwFEWYCKDIcbn
+qn0q4mRhm7wHWgYUj4/Xg36ARLq7ypaZzDbT8gSLsUWTbdXqf7tdeLZiPq1lf7yH
+3tVx82K6nBaa6C4YuhvM/5o1mP54cCrdOZ5y58tsZnS2Ek9ou1C6trBes0QGMh/Y
+Xe2vqpsT1nwLr7zStO7dtdljz5v2VuOW/qGeLbb7k99HC4pzb/feGJvOKRpIjX9C
+HkU311vdZZnjfNIYsMuLO5XdHY0d9xpqDo383jr30O459fbI6MmkovUVDvvpX6WF
+GivvaTnniqGJt+o6J2KWfZGSOPf6SeeBjLbRbdbDfZ/zh8nJoo3TaFrk+McPuRlT
+ea3JxTHu+sGF1JQdG7IaUs6cHZGjiVV57XO463wr3vy0+ae1P5oz/CLRFXvfc2nT
+1eS+OfNMbd3Q4h8tgBkN
+=9Lgj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jimmythompson
+
+==================================================================
+
