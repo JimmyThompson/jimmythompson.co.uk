@@ -14,7 +14,7 @@ body {
   border-top: 8px solid $title-color;
   color: $text-color;
   font: {
-    family: "Lato", Arial, sans-serif;
+    family: $main-font;
     size: 1.4em;
     weight: 300;
   }
