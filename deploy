@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "*** Pushing Changes Live ***"
+
+USER=$1
+DESTINATION=$2
+
+rm -rf _site
+jekyll build
+
+scp -r _site ${USER}@${DESTINATION}:/usr/share/nginx/
+
+ssh ${USER}@${DESTINATION} bash << EOF
+
+  cd /usr/share/nginx/
+  rm -rf html
+  mv _site html
+
+EOF
+
+exit 0
