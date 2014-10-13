@@ -5,7 +5,7 @@ rdiscount:
   extensions: [smart]
 
 url: http://jimmythompson.co.uk
-name: "Jimmy Thompson - Student, Software Developer"
+name: "Jimmy Thompson - Software Developer"
 description: "The personal website and blog of Jimmy Thompson, a software developer and Computer Science student from Manchester, in the United Kingdom."
 twitter: jimmythompson
 github: JimmyThompson
