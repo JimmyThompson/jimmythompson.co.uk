@@ -1,12 +1,15 @@
 #!/bin/bash
 
+set -e
+set -o pipefail
+
 echo "*** Pushing Changes Live ***"
 
 USER=$1
 DESTINATION=$2
 
 rm -rf _site
-jekyll build
+bundle exec jekyll build
 
 scp -r _site ${USER}@${DESTINATION}:/usr/share/nginx/
 
