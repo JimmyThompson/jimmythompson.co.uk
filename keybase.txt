@@ -6,16 +6,17 @@ I hereby claim:
 
   * I am an admin of http://jimmythompson.co.uk
   * I am jimmythompson (https://keybase.io/jimmythompson) on keybase.
-  * I have a public key with fingerprint FB08 062B F27C 0172 53DD  1ADF 59EC BE95 3993 6DEE
+  * I have a public key with fingerprint 9B92 7C6A 729E 5E4A E9AB  F7F6 C1C9 A54B 7DF4 4D9B
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "fingerprint": "fb08062bf27c017253dd1adf59ecbe9539936dee",
+            "fingerprint": "9b927c6a729e5e4ae9abf7f6c1c9a54b7df44d9b",
             "host": "keybase.io",
-            "key_id": "59ecbe9539936dee",
+            "key_id": "c1c9a54b7df44d9b",
+            "kid": "010164ca1e6eb1fa94835a904be24324e3f5bb46d8309c97cdde35e31dc4844cc5480a",
             "uid": "66abb35f3de2005f61e06ca648e57a00",
             "username": "jimmythompson"
         },
@@ -26,35 +27,42 @@ To claim this, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1412101462,
+    "ctime": 1425821658,
     "expire_in": 157680000,
-    "prev": "e16504c902355de48c7e8cf83d99d1af6947afdf5245834437224fbb208e1c71",
-    "seqno": 8,
+    "prev": "f31116a136b57d9ba203e2d67e35836de60d7931809ff2750bb197f24118dd2f",
+    "seqno": 13,
     "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v1.0.5
-Comment: https://keybase.io/crypto
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
 
-yMHsAnicbZFpSFRRFMdnyZZxK9CKCKQ3ZNsob18GyRZGpcSixAyk6S33jU+dec+Z
-N2ODzYAGUWFBi21CuFAgFVZkEUUjKiUWiGEiopSG9cFBKSoMUrtP6lv3y+We8/v/
-z7nn9CZbTTbz0fjLRu6yd8b8pms+aCre/qOkFhFUKYw4a5FKsHTJis8D/Jpf8emI
-E5EFlEVpXJBxRkQxBqcIScJ4SaY4IAqAowiOI2gJAMSBlKsBQwFtBD4AshUVxuDD
-rUgw+h8+uJSgaV4QCEomJICjKCXTGEBpkadJFlAMj6IGGAB+H+8FkK5QvN6wXq56
-tYDqQyIOBKZCigiMxo36/8OyRTU7WAl9NL+qq6JaBYFyXdechl4Pa4agBgjuv1Zu
-QfFJcAZQEAL+gALrODFIirpieGMkhmMoRtK4AwEnNMUP3IpBUAzNovAYZUAIWgKM
-plBS5FCcoCgJkKzIAFaUWULiODhCmeZIhpfhJHGSYgmSJBgcJ2VBwFEWYCKDIcbn
-qn0q4mRhm7wHWgYUj4/Xg36ARLq7ypaZzDbT8gSLsUWTbdXqf7tdeLZiPq1lf7yH
-3tVx82K6nBaa6C4YuhvM/5o1mP54cCrdOZ5y58tsZnS2Ek9ou1C6trBes0QGMh/Y
-Xe2vqpsT1nwLr7zStO7dtdljz5v2VuOW/qGeLbb7k99HC4pzb/feGJvOKRpIjX9C
-HkU311vdZZnjfNIYsMuLO5XdHY0d9xpqDo383jr30O459fbI6MmkovUVDvvpX6WF
-GivvaTnniqGJt+o6J2KWfZGSOPf6SeeBjLbRbdbDfZ/zh8nJoo3TaFrk+McPuRlT
-ea3JxTHu+sGF1JQdG7IaUs6cHZGjiVV57XO463wr3vy0+ae1P5oz/CLRFXvfc2nT
-1eS+OfNMbd3Q4h8tgBkN
-=9Lgj
+owFtkn9MlHUcx+84kXFLTI8BU5vsgRIU4fn949ABHiKTLgmCaEuO58f34R7o7jnu
+B4QcMAVHUAbLyWZQC0OXymiiia5M8EdyI67SFK9FMzoSwUkKRWt69jys/vP7z3ff
+z+f9eX2+n/c+HSt0Gr122Hc0r37B3KUdvcdpXnu8a6YO4mShFjLWQZVg6RIlezlw
+OpyS3Q0ZIYZjUIonWQplAAFwFjAsJ1IiySM8wxI4RwkijgsMB6VAVtmlVigYjnWB
+VElWYsrDIglK9Bn6yqUEjMAIifMsAkjAISLL4DRGsAyMcwDFMRQHmEhwHE4KNAYz
+PEPxggAwAmCIwOM0jvM8gdMwq+A8SziSZDkOI0RMACgMEyKJAJjkWRKnAUGxMKwK
+XcBpZ21AUVdINlut2yrbHC7ZDtWnQEqqWuKB6oM6zrNkqbyc6qlUOA6n7JZ5+S1F
+YHW7HUa13l3rUAtqAGf5D2XhJLugWKoUVAOnS1L6GBFFybsllY3gKEGjCEnQKRB4
+2yE5gUVSFQRF0rBy1DagWkGKGIIgJItgJEdQioEsCmMAFUhKcYPGSAGQsEAxGELD
+jCiiFAFzHMJQIoojCC0IqAipw1XZZYWNKf9ky6EoI+SSyu2s2+MEUL2+NWzdMo1W
+r1keHqbuhUYf+fz/yxLXt/LJmubTyb6WgtGQKevR8Exb7PgPpTm67tlM39w3vRlU
+TeD2ydXAH9WZUDz/fXRu22+N8+2BtM8mRs5nl3zRXaSfnDbcXbi1Y0EX3Fm4iWhs
+yc6Kz9te1B9+n/T9E3N2X/ObFzZuy3f9cqL15aqMJtNssCG9r2pzDxgpHFqfc/CG
+4cb+3k8n6xPntiePdKf8zvb0d14N3Jzq3Dobl7lh7d4Q3THAeP9qqIh4SIZ/8FNB
+e+yx5wKSXyg0da/z7FksIbL6ElpPFrf+mXhWPN4Y1D+9+vfu2FEhTfexbefjIxsf
+7nph1daxDXFlg+brGLwYunYu/+idtOAkcT7MF+2y1J04wPxc1NSaHop66evjZUPv
+ju7oDGkvO86caUliJpdNfA5HEuOG+vCILR37PVfiEy4UXX9xvKy355EnMTlDrMoJ
+uqcGP3x19LJ1E93lNn23ovxgKQrlBQafvBMzdC/8K7O4+tKcefCTU4unnLclU/Mr
+xw4tn4CKK6bwA+s1aw+fs/jf8KZb93pH2GST78cHdJdAzUcOePfF3zTGjN33f1uQ
+Hcy6WJNtiPCV5qbnDTDGfK/U1GTFi5MWte3Ruovwpbbs964VpH9kNhtK+mdPrxmb
+7hEa9nz5+uJ4R+bdHs/cnZLu6T+ic6cSbqU8JZN+pd6/sntzhKzt9R5p8q9ChmZW
+2rZMbHsw/C8=
+=o+oS
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -63,4 +71,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/jimmythompson
 
 ==================================================================
-
