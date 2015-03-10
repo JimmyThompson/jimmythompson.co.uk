@@ -1,7 +1,5 @@
+@import "variables";
 @import "library";
-
-$title-color: #333332;
-$text-color:  #4E5860;
 
 html {
   min-height: 100%;
@@ -135,6 +133,25 @@ p {
 
 .date {
   color: #999999;
+}
+
+.spacing {
+  margin: 20px 0px;
+}
+
+.fixed-width {
+  max-width: 800px;
+  margin: 0px auto;
+  overflow: hidden;
+
+  @media (max-width: 800px) {
+    padding: 0px 20px;
+  }
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 20px 0px;
 }
 
 header {
