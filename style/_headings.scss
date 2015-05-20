@@ -1,0 +1,23 @@
+@import "variables";
+@import "library";
+
+@include headings() {
+  @extend .spacing;
+  font: {
+    family: $header-font;
+    weight: 300;
+  }
+  color: $title-color;
+}
+
+h1 {
+  font-size: 2.0em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
