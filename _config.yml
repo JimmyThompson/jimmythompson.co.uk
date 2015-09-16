@@ -1,6 +1,6 @@
 markdown: rdiscount
 highlighter: true
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:title
 rdiscount:
   extensions: [smart]
 
