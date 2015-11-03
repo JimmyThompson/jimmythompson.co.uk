@@ -33,6 +33,10 @@ a {
   }
 }
 
+em {
+  font-style: italic;
+}
+
 @include selection {
   background: $text-color;
   color: #ffffff;
@@ -65,8 +69,10 @@ p {
 
   code {
     background: none repeat scroll 0 0 #ffffc8;
+    border-radius: 5px;
     display: inline-block;
     font-family: $code-font;
+    font-size: 0.8em;
     padding: 0 2px;
   }
 

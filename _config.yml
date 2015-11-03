@@ -1,5 +1,5 @@
 markdown: rdiscount
-highlighter: true
+highlighter: rouge
 permalink: /blog/:title
 rdiscount:
   extensions: [smart]
