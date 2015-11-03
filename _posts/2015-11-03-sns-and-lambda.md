@@ -52,10 +52,10 @@ permissions for the `999999999999` account.**
 
 {% highlight shell %}
 aws sns add-permission \
---topic-arn "arn:aws:sns:us-east-1:999999999999:new-births" \
---label "some-unique-identifier" \
---aws-account-id "000000000000" \
---action-name "Receive" "Subscribe"
+    --topic-arn "arn:aws:sns:us-east-1:999999999999:new-births" \
+    --label "some-unique-identifier" \
+    --aws-account-id "000000000000" \
+    --action-name "Receive" "Subscribe"
 {% endhighlight %}
 
 Be sure to rename `some-unique-identifier` to something you can understand if
@@ -89,11 +89,11 @@ permissions for the `000000000000` account.**
 
 {% highlight shell %}
 aws lambda add-permission \
---function-name "print-birth-certificate" \
---statement-id "some-unique-identifier" \
---principal "sns.amazonaws.com" \
---action "lambda:InvokeFunction" \
---source-arn "arn:aws:sns:us-east-1:999999999999:new-births"
+    --function-name "print-birth-certificate" \
+    --statement-id "some-unique-identifier" \
+    --principal "sns.amazonaws.com" \
+    --action "lambda:InvokeFunction" \
+    --source-arn "arn:aws:sns:us-east-1:999999999999:new-births"
 {% endhighlight %}
 
 ## Subscribing to the topic
@@ -104,9 +104,9 @@ permissions for the `000000000000` account.**
 
 {% highlight shell %}
 aws sns subscribe \
---topic-arn "arn:aws:sns:us-east-1:999999999999:new-births" \
---protocol "lambda" \
---notification-endpoint "arn:aws:lambda:us-east-1:000000000000:function:print-birth-certificate"
+    --topic-arn "arn:aws:sns:us-east-1:999999999999:new-births" \
+    --protocol "lambda" \
+    --notification-endpoint "arn:aws:lambda:us-east-1:000000000000:function:print-birth-certificate"
 {% endhighlight %}
 
 From this command you should receive your subscription ARN, which is a unique
