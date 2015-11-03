@@ -33,9 +33,6 @@ a {
   }
 }
 
-em {
-  font-style: italic;
-}
 
 @include selection {
   background: $text-color;
@@ -68,12 +65,8 @@ p {
   }
 
   code {
-    background: none repeat scroll 0 0 #ffffc8;
-    border-radius: 5px;
-    display: inline-block;
-    font-family: $code-font;
-    font-size: 0.8em;
-    padding: 0 2px;
+    color: #568cbe;
+    font-weight: bold;
   }
 
   strong {
@@ -160,6 +153,22 @@ header {
         padding-right: 0;
       }
     }
+  }
+}
+
+article {
+  em {
+    font-style: italic;
+  }
+
+  ol {
+    padding-left: 60px;
+    list-style: decimal;
+  }
+
+  ul {
+    padding-left: 60px;
+    list-style: disc;
   }
 }
 
