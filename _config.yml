@@ -4,9 +4,9 @@ permalink: /blog/:title
 rdiscount:
   extensions: [smart]
 
-url: http://jimmythompson.co.uk
+url: https://jimmythompson.co.uk
 name: "Jimmy Thompson - Software Developer"
-description: "The personal website and blog of Jimmy Thompson, a software developer and Computer Science student from Manchester, in the United Kingdom."
+description: "The personal website and blog of Jimmy Thompson, a software developer based in London"
 twitter: jimmythompson
 github: jimmythompson
 facebook: JimmyThompsonUK
