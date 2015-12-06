@@ -1,7 +1,6 @@
 #!/bin/bash
 
-set -e
-set -o pipefail
+set -euo pipefail
 
 echo "*** Pushing Changes Live ***"
 
@@ -11,14 +10,13 @@ DESTINATION=$2
 rm -rf _site
 bundle exec jekyll build
 
-scp -r _site ${USER}@${DESTINATION}:/usr/share/nginx/
+scp -r _site ${USER}@${DESTINATION}:~
 
 ssh ${USER}@${DESTINATION} bash << EOF
-
-  cd /usr/share/nginx/
-  rm -rf html
-  mv _site html
-
+    rm -rf jimmythompson.co.uk
+    mv _site jimmythompson.co.uk
 EOF
+
+echo "*** Deploy Complete ***"
 
 exit 0
