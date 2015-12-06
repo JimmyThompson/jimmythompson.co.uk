@@ -81,6 +81,3 @@ DEPENDENCIES
   rdiscount
   rouge
   yajl-ruby
-
-BUNDLED WITH
-   1.10.6
