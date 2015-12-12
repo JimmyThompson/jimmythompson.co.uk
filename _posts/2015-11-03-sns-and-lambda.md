@@ -47,8 +47,8 @@ topic's permissions policy to include a statement similar to the example below:
 The key permission is that the account `000000000000`, where our Lambda function
 is, has the ability to `SNS:Subscribe` and `SNS:Receive` from our topic.
 
-To do this via the CLI, you need to run the following command **with IAM 
-permissions for the `999999999999` account.**
+To do this via the CLI, you need to run the following command with IAM 
+permissions for the `999999999999` account.
 
 {% highlight shell %}
 aws sns add-permission \
@@ -84,8 +84,8 @@ should include a statement like the example below:
 }
 {% endhighlight %}
 
-To do this via the CLI, you need to run the following command **with IAM 
-permissions for the `000000000000` account.**
+To do this via the CLI, you need to run the following command with IAM 
+permissions for the `000000000000` account.
 
 {% highlight shell %}
 aws lambda add-permission \
@@ -99,8 +99,8 @@ aws lambda add-permission \
 ## Subscribing to the topic
 
 Now the permissions between the two accounts are set, you need to subscribe the
-Lambda function to the SNS topic, you can do this using the CLI **with IAM
-permissions for the `000000000000` account.**
+Lambda function to the SNS topic, you can do this using the CLI with IAM
+permissions for the `000000000000` account.
 
 {% highlight shell %}
 aws sns subscribe \
