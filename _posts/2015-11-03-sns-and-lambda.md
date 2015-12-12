@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Linking together Lambda and SNS across AWS accounts
+description: |
+               A guide on how to link together Lambda functions and SNS topics 
+               that belong in different AWS accounts.
 ---
 
 Hooking together *Amazon Web Services* (AWS) *Lambda* functions and *Simple

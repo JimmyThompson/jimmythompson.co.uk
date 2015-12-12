@@ -2,6 +2,10 @@
 layout: post
 title: Citizenfour
 image: /images/citizenfour.jpg
+description: |
+                My opinions on the Edward Snowden documentary, Citizenfour,
+                and its chilling insight into the world of state-run mass
+                surveillance.
 ---
 In June 2013, over fifty-thousand classified documents pertaining to a
 collection of secret programmes of mass surveillance formulated in the wake of
