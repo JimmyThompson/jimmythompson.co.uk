@@ -1,12 +1,14 @@
-markdown: rdiscount
-highlighter: rouge
-permalink: /blog/:title
-rdiscount:
-  extensions: [smart]
-
 url: https://jimmythompson.co.uk
+permalink: /blog/:title
+
+highlighter: rouge
+sass:
+  sass_dir: style
+  style: compressed
+
 name: "Jimmy Thompson - Software Developer"
 description: "The personal website and blog of Jimmy Thompson, a software developer based in London"
+
 twitter: jimmythompson
 github: jimmythompson
 facebook: JimmyThompsonUK
