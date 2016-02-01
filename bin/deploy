@@ -1,8 +1,7 @@
 #!/bin/bash
-
 set -euo pipefail
 
-echo "*** Pushing Changes Live ***"
+cat banner.txt
 
 USER=$1
 DESTINATION=$2
@@ -16,7 +15,3 @@ ssh ${USER}@${DESTINATION} bash << EOF
     rm -rf jimmythompson.co.uk
     mv _site jimmythompson.co.uk
 EOF
-
-echo "*** Deploy Complete ***"
-
-exit 0
