@@ -60,12 +60,15 @@ blockquote {
     line-height: 0.1em;
   }
 
-  p {
-    display: inline;
+  @media (max-width: 800px) {
+    padding: 0 20px;
+    :before {
+      display: none;
+    }
   }
 
-  @media (max-width: 800px) {
-    display: none;
+  p {
+    display: inline;
   }
 }
 
