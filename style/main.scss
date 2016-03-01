@@ -36,7 +36,6 @@ a {
   }
 }
 
-
 @include selection {
   background: $text-color;
   color: #ffffff;
@@ -44,8 +43,26 @@ a {
 
 blockquote {
   @extend .spacing;
+
+  position: relative;
   font-size: 1.4em;
-  padding: 0 40px;
+  font-weight: 300;
+  padding: 0 20px 0 80px;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+
+  :before {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    content: "\201C";
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 0.1em;
+  }
+
+  p {
+    display: inline;
+  }
 
   @media (max-width: 800px) {
     display: none;

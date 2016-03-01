@@ -43,10 +43,10 @@ portrayed to be, Snowden exudes an air of humility and naïvité more reminiscen
 of Johnny English than James Bond - an odd display of humanity not often seen 
 of household names.
 
-> "Know that every border you cross, every purchase you make, every call you 
+> Know that every border you cross, every purchase you make, every call you 
   dial, every cellphone tower you pass, friend you keep, site you visit and 
   subject line you type is in the hands of a system whose reach is unlimited 
-  but whose safeguards are not."
+  but whose safeguards are not.
 
 Throughout the film, these more humourous elements are juxtaposed with 
 constant, staggering reminders of the system which Snowden brought into 
@@ -58,8 +58,8 @@ laughter in the room is tense as Snowden dons a cowl - jokingly dubbed the
 password. He later laughs nervously as it is revealed there are several 
 "construction vehicles" outside his girlfriend's house; we all do the same.
 
-> “We are building the biggest weapon for oppression in the history of 
-  mankind.”
+> We are building the biggest weapon for oppression in the history of 
+  mankind.
 
 Ultimately, Citizenfour serves as both an inspiration to action and a chilling 
 reminder of a spying system which remains in operation to this day. The dangers 
