@@ -42,7 +42,7 @@ a {
 }
 
 blockquote {
-  @extend .spacing;
+  @extend .double-spacing;
 
   position: relative;
   font-size: 1.4em;
@@ -140,6 +140,10 @@ p {
   margin: 20px 0;
 }
 
+.double-spacing {
+  margin: 40px 0;
+}
+
 .fixed-width {
   max-width: 800px;
   margin: 0 auto;
@@ -197,6 +201,15 @@ article {
 
 section {
   @extend .spacing;
+}
+
+figure {
+  @extend .double-spacing;
+}
+
+figcaption {
+  font-weight: bold;
+  text-align: center;
 }
 
 .share-bar {
