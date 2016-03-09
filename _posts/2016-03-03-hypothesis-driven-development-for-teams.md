@@ -2,8 +2,8 @@
 layout: post
 title: Hypothesis-Driven Development for Teams
 description: |
-               My description of a world where teams use hypothesis-driven
-               development as a means of continuous improvement within teams.
+               Using hypothesis-driven development to run experiments and 
+               improve your team.
 ---
 
 It was a Monday afternoon, and our team retrospective. Every two weeks we'd sit 
@@ -36,15 +36,15 @@ now take for granted. I think there's a better way to structure improvement
 within a team, and that is by embracing hypothesis-driven development.
 
 [Hypothesis-driven development](http://barryoreilly.com/2013/10/21/how-to-implement-hypothesis-driven-development/)
-(HDD) is a practice which brings the scientific method to software development. 
+(HDD) is a practice which brings the scientific method to developing software. 
 Instead of stories, which are about delivering specific pieces of value, you 
 perform experiments. These experiments are designed to test hypotheses; 
 hypotheses which are meant to achieve a certain outcome. We can take this
-concept and apply it to a team, making team experiments.
+concept and apply it to a team, creating *team experiments*.
 
 <figure>
   <img src="/images/experiment-pair.png" alt="Experiment cards"/>
-  <figcaption>An example of an experiment card</figcaption>
+  <figcaption>An example of a team experiment</figcaption>
 </figure>
 
 I imagine a world where teams maintain a wall of experiments, which they use to
