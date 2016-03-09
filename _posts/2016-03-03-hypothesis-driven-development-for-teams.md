@@ -38,7 +38,7 @@ within a team, and that is by embracing hypothesis-driven development.
 [Hypothesis-driven development](http://barryoreilly.com/2013/10/21/how-to-implement-hypothesis-driven-development/)
 (HDD) is a practice which brings the scientific method to developing software. 
 Instead of stories, which are about delivering specific pieces of value, you 
-perform experiments. These experiments test hypotheses; which are expected 
+perform experiments. These experiments test hypotheses; which are expected to
 achieve a certain outcome. We can take this concept and apply it to a team, 
 creating *team experiments*.
 
