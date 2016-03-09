@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hypothesis-Driven Development for Teams
+title: Driving your team forward with Hypothesis-Driven Development
 description: |
                Using hypothesis-driven development to run experiments and 
                improve your team.
