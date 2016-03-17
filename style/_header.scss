@@ -1,0 +1,43 @@
+@import "variables";
+@import "library";
+
+header {
+  font-family: $header-font;
+  padding: 20px 5px;
+  overflow: hidden;
+
+  ul {
+    float: right;
+
+    li {
+      display: inline-block;
+      float: left;
+      padding: 25px 20px;
+
+      @media (max-width: 450px) {
+        padding: 25px 10px;
+      }
+
+      &:nth-last-child(1) {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+a.photo {
+  @include border-radius(50%);
+  border: 0;
+  background: white;
+  line-height: 0;
+  padding: 2px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+
+  img {
+    @include border-radius(50%);
+  }
+
+  &:hover {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+  }
+}
