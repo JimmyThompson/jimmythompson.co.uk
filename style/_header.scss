@@ -29,6 +29,7 @@ a.photo {
   @include border-radius(50%);
   border: 0;
   background: white;
+  display: inline-block;
   line-height: 0;
   padding: 2px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
