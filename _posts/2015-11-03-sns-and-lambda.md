@@ -32,7 +32,7 @@ topic's permissions policy to include a statement similar to the example below:
 
 {% highlight json %}
 {
-  "Sid": "some-unique-identifier"
+  "Sid": "some-unique-identifier",
   "Effect": "Allow",
   "Principal": {
     "AWS": [
