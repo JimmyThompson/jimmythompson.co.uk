@@ -17,4 +17,14 @@ $font-echo:      1rem;
 $font-foxtrot:   .875rem;
 $font-golf:      .75rem;
 
+$spacing:        1rem;
+
 $nav-background: $title-color;
+
+.spacing {
+  margin: $spacing 0;
+}
+
+.double-spacing {
+  margin: (2 * $spacing) 0;
+}
