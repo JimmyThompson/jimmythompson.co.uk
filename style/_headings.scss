@@ -3,21 +3,35 @@
 
 @include headings() {
   @extend .spacing;
+
   font: {
     family: $header-font;
     weight: 300;
   }
+
   color: $title-color;
 }
 
 h1 {
-  font-size: 2.0em;
+  font-size: $font-alpha;
 }
 
 h2 {
-  font-size: 1.4em;
+  font-size: $font-beta;
 }
 
 h3 {
-  font-size: 1.1em;
+  font-size: $font-charlie;
+}
+
+h4 {
+  font-size: $font-delta;
+}
+
+h5 {
+  font-size: $font-echo;
+}
+
+h6 {
+  font-size: $font-foxtrot;
 }
