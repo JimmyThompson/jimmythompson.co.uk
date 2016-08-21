@@ -31,10 +31,8 @@ figcaption {
 }
 
 .share-bar {
-  @extend .footer;
-
   border-top: 1px dotted #999999;
-  padding-bottom: 0;
+  padding: $spacing 0 0;
 
   ul {
     float: right;
