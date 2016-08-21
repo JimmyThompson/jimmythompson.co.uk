@@ -3,7 +3,7 @@
 
 header {
   font-family: $header-font;
-  padding: 20px 5px;
+  padding: 0;
   overflow: hidden;
 
   ul {
@@ -22,23 +22,5 @@ header {
         padding-right: 0;
       }
     }
-  }
-}
-
-a.photo {
-  @include border-radius(50%);
-  border: 0;
-  background: white;
-  display: inline-block;
-  line-height: 0;
-  padding: 2px;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
-
-  img {
-    @include border-radius(50%);
-  }
-
-  &:hover {
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
   }
 }
