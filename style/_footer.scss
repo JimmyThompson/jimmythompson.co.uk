@@ -1,8 +1,8 @@
 @import "variables";
 
 footer {
-  border-top: 1px dotted #999999;
-  color: #999999;
+  border-top: 1px solid $secondary-color;
+  color: $secondary-color;
   margin: $spacing 0;
   padding: $spacing 0;
   text-align: center;
