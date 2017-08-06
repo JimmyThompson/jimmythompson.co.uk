@@ -6,12 +6,12 @@ article {
   }
 
   ol {
-    padding-left: 60px;
+    padding-left: 64px;
     list-style: decimal;
   }
 
   ul {
-    padding-left: 60px;
+    padding-left: 64px;
     list-style: disc;
   }
 }
@@ -73,8 +73,7 @@ blockquote {
 
   position: relative;
   font-size: 1.4em;
-  font-weight: 300;
-  padding: 0 20px 0 80px;
+  padding: 0 16px 0 72px;
   quotes: "\201C" "\201D" "\2018" "\2019";
 
   :before {
@@ -88,7 +87,7 @@ blockquote {
   }
 
   @media (max-width: 800px) {
-    padding: 0 20px;
+    padding: 0 16px;
     :before {
       display: none;
     }
@@ -109,13 +108,12 @@ p {
 
   img {
     display: block;
-    margin: 20px auto;
+    margin: 16px auto;
     text-align: center;
   }
 
   code {
     color: $primary-color;
-    font-weight: 400;
   }
 
   strong {
@@ -136,10 +134,10 @@ p {
     size: 0.55em;
   }
 
-  margin: 20px 20px;
+  margin: 16px 16px;
   overflow: hidden;
   overflow-x: auto;
-  padding: 15px 20px;
+  padding: 11px 16px;
 
   code {
     float: left;
@@ -156,6 +154,6 @@ p {
   overflow: hidden;
 
   @media (max-width: 800px) {
-    padding: 0 20px;
+    padding: 0 16px;
   }
 }
