@@ -36,8 +36,10 @@ jobs:
             - ./venv
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
-  deployment:
-    production:
-      branch: master
-      commands:
-        - ./bin/deploy ${SSH_USER} ${DESTINATION}
+      - run: rake build
+      - deploy:
+          name: Deploy
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              ./bin/deploy ${SSH_USER} ${DESTINATION}
+            fi

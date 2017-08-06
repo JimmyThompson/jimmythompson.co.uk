@@ -10,6 +10,10 @@ task :dependencies do
   sh('bundle install --path gems')
 end
 
+task :build => [:clean] do
+  sh('bundle exec jekyll build')
+end
+
 task :dev => [:clean, :dependencies] do
   sh('bundle exec jekyll serve --drafts')
 end

@@ -4,9 +4,6 @@ set -euo pipefail
 USER=$1
 DESTINATION=$2
 
-rm -rf _site
-bundle exec jekyll build
-
 scp -r _site ${USER}@${DESTINATION}:~
 
 ssh ${USER}@${DESTINATION} bash << EOF
