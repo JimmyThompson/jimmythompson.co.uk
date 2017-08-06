@@ -1,0 +1,37 @@
+.blog-list {
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.blog-summary {
+  background: $background;
+  margin-bottom: 16px;
+
+  a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    border: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  &:hover {
+    background: $tinted-background;
+  }
+}
+
+.blog-summary-header {
+  color: $title-color;
+  font-size: $font-charlie;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0 8px 0;
+}
+
+.blog-summary-description {
+  font-size: $font-delta;
+}

@@ -12,6 +12,7 @@ html {
 body {
   @extend html;
 
+  background-color: $light-color;
   border-top: 8px solid $title-color;
   color: $text-color;
 
