@@ -6,7 +6,7 @@ DESTINATION=$2
 
 scp -r _site ${USER}@${DESTINATION}:~
 
-ssh ${USER}@${DESTINATION} bash << EOF
+ssh -o StrictHostKeyChecking=no ${USER}@${DESTINATION} bash << EOF
     rm -rf jimmythompson.co.uk
     mv _site jimmythompson.co.uk
 EOF
