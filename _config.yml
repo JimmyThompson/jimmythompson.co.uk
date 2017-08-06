@@ -17,3 +17,6 @@ github: jimmythompson
 medium: jimmythompson
 facebook: JimmyThompsonUK
 email: jimmy@jimmythompson.co.uk
+
+exclude:
+  - gems/
