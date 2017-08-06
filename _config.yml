@@ -1,8 +1,6 @@
 url: https://jimmythompson.co.uk
 permalink: /blog/:title/
 
-exclude: [ "Gemfile", "Gemfile.lock", "LICENCE", "README.md", "Rakefile", "banner.txt", "bin" ]
-
 highlighter: rouge
 sass:
   sass_dir: style
@@ -19,4 +17,11 @@ facebook: JimmyThompsonUK
 email: jimmy@jimmythompson.co.uk
 
 exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENCE
+  - README.md
+  - Rakefile
+  - banner.txt
+  - bin
   - gems/
