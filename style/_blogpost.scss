@@ -123,11 +123,11 @@ p {
 
 .highlight {
   @extend .spacing;
-  background: #f5f5f5;
+  background: $background;
 
   border-left: 6px solid $primary-color;
 
-  color: #111111;
+  color: $title-color;
 
   font: {
     family: $code-font;
