@@ -4,7 +4,7 @@ set -euo pipefail
 USER=$1
 DESTINATION=$2
 
-scp -r _site ${USER}@${DESTINATION}:~
+scp -o StrictHostKeyChecking=no -r _site ${USER}@${DESTINATION}:~
 
 ssh -o StrictHostKeyChecking=no ${USER}@${DESTINATION} bash << EOF
     rm -rf jimmythompson.co.uk
