@@ -1,12 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-USER=$1
-DESTINATION=$2
+BUCKET_NAME=$1
 
-scp -o StrictHostKeyChecking=no -r _site ${USER}@${DESTINATION}:~
-
-ssh -o StrictHostKeyChecking=no ${USER}@${DESTINATION} bash << EOF
-    rm -rf jimmythompson.co.uk
-    mv _site jimmythompson.co.uk
-EOF
+aws s3 sync _site s3://${BUCKET_NAME} --delete

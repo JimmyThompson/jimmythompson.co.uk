@@ -41,5 +41,5 @@ jobs:
           name: Deploy
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              ./bin/deploy ${DEPLOY_USER} ${DEPLOY_DESTINATION}
+              ./bin/deploy ${BUCKET_NAME}
             fi
