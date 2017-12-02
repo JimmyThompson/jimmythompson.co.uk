@@ -4,14 +4,21 @@ $main-font:       'Raleway', Arial, sans-serif;
 $header-font:     'Patua One', sans-serif;
 $code-font:       'Monaco', 'Consolas', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
 
+$light: white;
+$light-tint: #f8f9f8;
+$primary: #32e2d1;
+$primary-tint: #425f7b;
+$dark: #333332;
+$dark-tint: black;
+
 $white:             white;
-$light-color:       #f9fbfd;
-$title-color:       #333332;
-$text-color:        #4E5860;
-$primary-color:     #568cbe;
-$secondary-color:   #999999;
-$background:        #EFF1F2;
-$tinted-background: #DFE3E7;
+$light-color:       $light;
+$title-color:       $dark-tint;
+$text-color:        $dark;
+$primary-color:     $primary;
+$secondary-color:   $primary-tint;
+$background:        $light;
+$tinted-background: $light-tint;
 
 $title:           4rem;
 $font-alpha:      2.625rem;

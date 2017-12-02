@@ -8,8 +8,28 @@ header {
   overflow: hidden;
 }
 
-.photo {
-  float: right;
+.logo {
+  background: $primary-color;
   border: 0;
-  padding: 0;
+  color: $white;
+  font-family: $main-font;
+  font-weight: bold;
+  float: left;
+  padding: 8px 16px;
+  text-transform: uppercase;
+}
+
+.navigation {
+  float: right;
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    border: 0;
+    font-size: $font-beta;
+    text-decoration: none;
+    margin: 6px;
+  }
 }

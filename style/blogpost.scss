@@ -32,13 +32,12 @@ figcaption {
 
 .share-bar {
   border-top: 1px solid $secondary-color;
-  padding: $spacing 0 0;
+  padding: $spacing 0 $spacing;
   margin-top: (4 * $spacing);
 
   ul {
     float: right;
     font: {
-      family: $header-font;
       size: 0.8em;
     }
 
@@ -47,14 +46,14 @@ figcaption {
       display: inline-block;
 
       a {
-        background: $title-color;
+        background: $primary-color;
         color: #ffffff;
         display: block;
         padding: 5px 10px;
         border: 0;
 
         &:hover {
-          background: $secondary-color;
+          color: $title-color;
         }
 
       }

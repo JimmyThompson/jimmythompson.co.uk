@@ -12,7 +12,7 @@ html {
 body {
   @extend html;
 
-  background-color: $white;
+  background-color: $background;
   color: $text-color;
 
   font: {

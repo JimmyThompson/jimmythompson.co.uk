@@ -5,7 +5,7 @@
 }
 
 .blog-summary {
-  background: $background;
+  background: $tinted-background;
   margin-bottom: 16px;
 
   a {
@@ -21,7 +21,7 @@
   }
 
   &:hover {
-    background: $tinted-background;
+    background: $secondary-color;
   }
 }
 
