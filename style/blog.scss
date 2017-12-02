@@ -21,7 +21,8 @@
   }
 
   &:hover {
-    background: $secondary-color;
+    background: darken($tinted-background, 5%);
+    color: black;
   }
 }
 
