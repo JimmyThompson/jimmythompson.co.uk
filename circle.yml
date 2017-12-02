@@ -2,6 +2,10 @@ machine:
   ruby:
     version: 2.4.2
 
+test:
+  override:
+    - "true"
+
 ## Customize dependencies
 dependencies:
   pre:
@@ -12,10 +16,3 @@ deployment:
     branch: master
     commands:
       - ./bin/deploy ${BUCKET_NAME}
-
-
-## Custom notifications
-notify:
-  webhooks:
-    # A list of hashes representing hooks. Only the url field is supported.
-    - url: https://someurl.com/hooks/circle
