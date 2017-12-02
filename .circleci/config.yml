@@ -37,9 +37,9 @@ jobs:
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
       - run: rake build
-      - deploy:
-          name: Deploy
-          command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              ./bin/deploy ${BUCKET_NAME}
-            fi
+
+  deployment:
+    prod:
+      branch: master
+      commands:
+        - ./bin/deploy ${BUCKET_NAME}
