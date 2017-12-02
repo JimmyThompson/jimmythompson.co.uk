@@ -3,4 +3,5 @@ set -euo pipefail
 
 BUCKET_NAME=$1
 
+rake build
 aws s3 sync _site s3://${BUCKET_NAME} --delete

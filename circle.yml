@@ -1,0 +1,21 @@
+machine:
+  ruby:
+    version: 2.4.2
+
+## Customize dependencies
+dependencies:
+  pre:
+    - gem install bundler --pre
+
+deployment:
+  prod:
+    branch: master
+    commands:
+      - ./bin/deploy ${BUCKET_NAME}
+
+
+## Custom notifications
+notify:
+  webhooks:
+    # A list of hashes representing hooks. Only the url field is supported.
+    - url: https://someurl.com/hooks/circle
