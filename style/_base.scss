@@ -12,8 +12,7 @@ html {
 body {
   @extend html;
 
-  background-color: $light-color;
-  border-top: 8px solid $title-color;
+  background-color: $white;
   color: $text-color;
 
   font: {
@@ -25,18 +24,19 @@ body {
 }
 
 a {
-  border-bottom: 1px dotted $title-color;
-  color: $title-color;
+  border-bottom: 1px solid $primary-color;
+  color: $primary-color;
   padding: 0 2px;
   text-decoration: none;
   transition: all 0.25s ease 0s;
 
   &:hover {
-    border-bottom: 1px solid $title-color;
+    color: $title-color;
+    border-color: $title-color;
   }
 }
 
 @include selection {
-  background: $text-color;
+  background: $primary-color;
   color: #ffffff;
 }

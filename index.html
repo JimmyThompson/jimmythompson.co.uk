@@ -1,20 +1,21 @@
 ---
 layout: main
 ---
-<div class="fixed-width">
-  <img src="/images/masthead.jpg" alt="" />
-  <h1>Hello!</h1>
+<section class="fixed-width">
+  <h1>Welcome to my blog</h1>
   <p>
     My name is Jimmy Thompson, I'm a Senior Developer, working for
-    <a href="https://thoughtworks.com">ThoughtWorks</a> in London.</p>
-  <p>
-    I've been lucky to have the opportunity to work on many exciting projects
-    around big data engineering, product development, infosec, and the
-    government's digital transformation.
+    <a href="https://thoughtworks.com">ThoughtWorks</a> in London.
   </p>
-  <p>
-    I also get involved in the London tech community, volunteering for
-    <a href="https://railsgirls.london">Rails Girls</a> and
-    <a href="https://studentrobotics.org">Student Robotics</a>.
-  </p>
- </div>
+  <h2>Posts</h2>
+  <ul class="blog-list listing">
+    {% for post in site.posts %}
+    <li class="blog-summary">
+      <a href="{{ post.url }}">
+        <h2 class="blog-summary-header">{{ post.title }}</h2>
+        <p class="blog-summary-description">{{ post.description }}</p>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

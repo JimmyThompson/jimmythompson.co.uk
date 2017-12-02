@@ -9,6 +9,7 @@
   margin-bottom: 16px;
 
   a {
+    color: $text-color;
     display: block;
     padding: 16px;
     text-decoration: none;
@@ -26,6 +27,7 @@
 
 .blog-summary-header {
   color: $title-color;
+  font-family: $main-font;
   font-size: $font-charlie;
   font-weight: bold;
   padding: 0;

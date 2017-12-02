@@ -3,11 +3,11 @@ task :clean do
 end
 
 task :deep_clean => [:clean] do
-  sh('rm -rf gems')
+  sh('rm -rf vendor')
 end
 
 task :dependencies do
-  sh('bundle install --path gems')
+  sh('bundle install --path vendor')
 end
 
 task :build => [:clean] do

@@ -6,22 +6,10 @@ header {
   margin: 0 0 $spacing;
   padding: 0;
   overflow: hidden;
+}
 
-  ul {
-    float: right;
-
-    li {
-      display: inline-block;
-      float: left;
-      padding: 32px 16px;
-
-      @media (max-width: 450px) {
-        padding: 32px 16px;
-      }
-
-      &:nth-last-child(1) {
-        padding-right: 0;
-      }
-    }
-  }
+.photo {
+  float: right;
+  border: 0;
+  padding: 0;
 }
