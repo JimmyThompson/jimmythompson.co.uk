@@ -10,3 +10,11 @@
     ::-moz-selection { @content; }
     ::selection { @content; }
 }
+
+@mixin spacing($size) {
+  margin: (3 * $size) 0 $size;
+}
+
+@mixin equal_spacing($size) {
+  margin: $size 0;
+}

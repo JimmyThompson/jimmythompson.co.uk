@@ -1,27 +1,27 @@
-@import "variables";
-
 article {
   em {
     font-style: italic;
   }
 
   ol {
+    @include equal_spacing($spacing);
     padding-left: 64px;
     list-style: decimal;
   }
 
   ul {
+    @include equal_spacing($spacing);
     padding-left: 64px;
     list-style: disc;
   }
 }
 
 section {
-  @extend .spacing;
+  @include spacing($spacing);
 }
 
 figure {
-  @extend .double-spacing;
+  @include equal_spacing(2 * $spacing);
 }
 
 figcaption {
@@ -68,7 +68,7 @@ figcaption {
 }
 
 blockquote {
-  @extend .double-spacing;
+  @include equal_spacing(2 * $spacing);
 
   position: relative;
   font-size: 1.4em;
@@ -103,7 +103,7 @@ img {
 }
 
 p {
-  @extend .spacing;
+  margin: 0 0 $spacing;
 
   img {
     display: block;
@@ -112,7 +112,7 @@ p {
   }
 
   code {
-    color: $primary-color;
+    color: $dark-highlight;
   }
 
   strong {

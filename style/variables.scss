@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Patua+One|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Patua+One|Source+Sans+Pro|Raleway');
 
-$main-font:       'Raleway', Arial, sans-serif;
+$main-font:       'Source Sans Pro', Arial, sans-serif;
 $header-font:     'Patua One', sans-serif;
+$logo-font:       'Raleway', sans-serif;
 $code-font:       'Monaco', 'Consolas', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
 
 $light: white;
 $light-tint: #f8f9f8;
 $primary: #32e2d1;
 $primary-tint: #425f7b;
+$dark-highlight: #bbbbbd;
 $dark: #333332;
 $dark-tint: black;
 

@@ -1,8 +1,6 @@
-@import "variables";
-@import "library";
 
 @include headings() {
-  @extend .spacing;
+  @include spacing(0.5 * $spacing);
 
   font: {
     family: $header-font;
@@ -14,6 +12,8 @@
 
 h1 {
   font-size: $title;
+  line-height: 1.2;
+  @include equal_spacing($spacing);
 }
 
 h2 {
