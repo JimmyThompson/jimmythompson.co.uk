@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Your friends and family are not “early adopters”
-subtitle: Find your real early adopters and solve their real problems instead.
+subtitle: Find your real early adopters and solve their problems instead.
 image: /images/hiding-from-early-adopters.jpg
 caption: Photo by [Caleb Woods](https://unsplash.com/photos/VZILDYoqn_U)
 description: |
