@@ -156,3 +156,13 @@ p {
     padding: 0 16px;
   }
 }
+
+.subtitle {
+  font-size: $font-charlie;
+  color: $dark-highlight;
+}
+
+.caption {
+  text-align: center;
+  font-size: $font-echo;
+}
