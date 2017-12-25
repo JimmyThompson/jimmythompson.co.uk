@@ -61,7 +61,7 @@ anyway.
 
 ## Why do I need to find my early adopters?
 
-Pleasing your early adopters is how you enter your market and gain customers. At
+Pleasing your early adopters is how you enter your market and gain traction. At
 the beginning of your startup journey, you should be finding a group of people
 poorly served by your competitors, and collaborating with them to build
 something they can use.
