@@ -11,19 +11,19 @@ I've grown to detest the idea of the "friends and family" release. Here's some
 canned responses to common reasons why startups choose to release to their
 friends rather than actually finding some early adopters.
 
-### But it's not ready yet
+### But it’s not ready for the public yet
 
-Unless it's useless, you don't know whether it's ready yet. The sooner you get
-out and speak to your customers, the sooner you learn about what works and what
-doesn't. It's better to start this journey now with a handful of early adopters
-than launch in six months with all your imagined features.
+Unless it's completely useless, you don't know whether it's ready yet. The
+sooner you get out and speak to your customers, the sooner you learn about what
+works and what doesn't. It's better to start this journey now with a handful of
+early adopters than launch in six months with all your imagined features.
 
 ### But we're in stealth
 
-Stealth doesn't mean isolating yourselves from your customers. The risk of your
-company failing because you built a product nobody wants is way higher than the
-risk of an early adopter giving away your product to a competitor, and then that
-competitor dropping everything to beat you to market.
+Stealth doesn’t mean isolating yourselves from your customers. It’s more likely
+your startup will fail because nobody wants your product than because a
+competitor learns about your product, drops everything they’re already doing,
+and then beats you to market.
 
 ### But they invested
 
@@ -56,10 +56,10 @@ anyway.
 
 ## Why do I need to find my early adopters?
 
-Pleasing your early adopters is how you enter your market, and gain customers.
-At the beginning of your startup journey, you should be looking at your target
-market and finding a group of people poorly served by your competitors, and
-collaborating with them to build something they can use.
+Pleasing your early adopters is how you enter your market and gain customers. At
+the beginning of your startup journey, you should be finding a group of people
+poorly served by your competitors, and collaborating with them to build
+something they can use.
 
 If you're not your target market, you need to know them well. You can't build
 something in isolation from them and expect them to use it.
