@@ -40,6 +40,10 @@ See ["But we're in stealth"](#but-were-in-stealth).
 
 Why are you building a product without an idea of who needs it?
 
+Figure out who might need your product, then go show them instead. You’ll then
+be able to build something that definitely solves their problems rather than
+guessing what their problems are.
+
 ### But they are in the target market
 
 If your target market is pretty much everyone, then you're unlikely to find a
