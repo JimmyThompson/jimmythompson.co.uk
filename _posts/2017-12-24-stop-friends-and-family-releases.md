@@ -5,16 +5,16 @@ subtitle: Find your real early adopters and solve their real problems instead.
 image: /images/hiding-from-early-adopters.jpg
 caption: Photo by [Caleb Woods](https://unsplash.com/photos/VZILDYoqn_U)
 description: |
-                I really hate it when a startup chooses to talk about “friends and family”
-                releases rather than finding customers. So here’s some canned responses to
-                reasons I’ve been told why we should go and speak to friends rather than to our
-                early adopters.
+                I really hate it when a startup goes with “friends and family” releases rather
+                than finding real customers. So here’s some canned responses to reasons I’ve
+                been told why we should go and speak to friends rather than to our early
+                adopters.
 ---
 
-I really hate it when a startup chooses to talk about “friends and family”
-releases rather than finding customers. So here’s some canned responses to
-reasons I’ve been told why we should go and speak to friends rather than to our
-early adopters.
+I really hate it when a startup goes with “friends and family” releases rather
+than finding real customers. So here’s some canned responses to reasons I’ve
+been told why we should go and speak to friends rather than to our early
+adopters.
 
 ### But it’s not ready for the public yet
 
