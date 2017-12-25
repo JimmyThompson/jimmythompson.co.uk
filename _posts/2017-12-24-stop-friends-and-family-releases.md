@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stop asking your friends and family to be early adopters
+title: Your friends and family are not “early adopters”
 description: |
                 I've grown to detest the idea of the "friends and family" release. Here's some
                 canned responses to common reasons why startups choose to release to their
