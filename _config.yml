@@ -6,15 +6,13 @@ sass:
   sass_dir: style
   style: compressed
 
-name: "Jimmy Thompson - Software Developer"
-description: "The personal website and blog of Jimmy Thompson, a software developer based in London"
+name: "Jimmy Thompson - Software Engineer"
+description: "Hi, I'm Jimmy, a software engineer based in London"
 
-gravatar: //www.gravatar.com/avatar/73083e7e6bda1576bf6ea9e5be037c78
-twitter: jimmythompson
-github: jimmythompson
-medium: jimmythompson
-facebook: JimmyThompsonUK
-email: jimmy@jimmythompson.co.uk
+twitter: https://twitter.com/jimmythompson
+github: https://github.com/jimmythompson
+medium: https://medium.com/@jimmythompson
+stackoverflow: https://stackoverflow.com/users/1162899/jimmy-thompson
 
 exclude:
   - Gemfile
