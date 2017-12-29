@@ -59,7 +59,9 @@ and family fall into it, this is probably the exception. But beware, they aren't
 a neutral party. Even if they don't use it, they'll likely tell you they love it
 anyway.
 
-## Why do I need to find my early adopters?
+---
+
+### Why do I need to find my early adopters?
 
 Pleasing your early adopters is how you enter your market and gain traction. At
 the beginning of your startup journey, you should be finding a group of people

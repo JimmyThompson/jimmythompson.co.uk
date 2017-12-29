@@ -25,6 +25,16 @@ blockquote {
   }
 }
 
+hr {
+  border: 0;
+  font-size: 1.4em;
+  text-align: center;
+
+  &:before {
+    content: '...'
+  }
+}
+
 .caption {
   font-size: 0.8em;
   text-align: center;
