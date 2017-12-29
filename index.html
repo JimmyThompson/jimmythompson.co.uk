@@ -1,7 +1,7 @@
 ---
 layout: main
 ---
-<section class="fixed-width">
+<div class="fixed-width">
   <h1>Welcome to my blog</h1>
   <p>
     Hi, I'm Jimmy. I'm a Developer currently working for
@@ -11,14 +11,11 @@ layout: main
   </p>
   <p>I hope you find these helpful, or at least interesting!</p>
   <h2>Posts</h2>
-  <ul class="blog-list listing">
+  <ul class="posts">
     {% for post in site.posts %}
-    <li class="blog-summary">
-      <a href="{{ post.url }}">
-        <h2 class="blog-summary-header">{{ post.title }}</h2>
-        <p class="blog-summary-description">{{ post.description }}</p>
-      </a>
+    <li>
+      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
     </li>
     {% endfor %}
   </ul>
-</section>
+</div>

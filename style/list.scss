@@ -1,0 +1,16 @@
+.posts {
+  list-style: none;
+  padding: 0;
+
+  h2 {
+    font-size: 1.0em;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

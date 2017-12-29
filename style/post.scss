@@ -1,0 +1,31 @@
+article {
+  h1 {
+    font-size: 2em;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+blockquote {
+  font-style: italic;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+
+  &:before {
+    content: open-quote;
+    font-size: 2em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+  p {
+    display: inline;
+  }
+}
+
+.caption {
+  font-size: 0.8em;
+  text-align: center;
+}

@@ -1,13 +1,46 @@
 ---
 ---
 
-@import "variables";
 @import "responsive";
 @import "grid";
-@import "mixins";
-@import "base";
-@import "headings";
 @import "header";
-@import "blog";
-@import "blogpost";
-@import "footer";
+@import "post";
+@import "list";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	color: #424242;
+	background: #fafafa;
+	font-size: 1em;
+	font-family: "Dejavu Sans Mono", Courier, monospace;
+  padding: 16px;
+}
+
+a {
+  color: #0921ea;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: #0921ea;
+  }
+}
+
+.fixed-width {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container {
+  @extend .row;
+}
+
+.content {
+  @extend .column;
+  @extend .l-10-12;
+}
