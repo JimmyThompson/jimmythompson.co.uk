@@ -35,7 +35,17 @@ hr {
   }
 }
 
-.caption {
+figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+figcaption {
   font-size: 0.8em;
   text-align: center;
+}
+
+.highlight {
+  text-align: left;
 }
