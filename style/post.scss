@@ -11,6 +11,8 @@ article {
 blockquote {
   font-style: italic;
   quotes: "\201C" "\201D" "\2018" "\2019";
+  margin-top: 2em;
+  margin-bottom: 2em;
 
   &:before {
     content: open-quote;
