@@ -2,6 +2,7 @@
 layout: post
 title: Citizenfour
 image: /images/citizenfour.jpg
+caption: Edward Snowden - the NSA whistleblower, and the subject of Citizenfour
 subtitle: A humble review
 description: |
                 My opinions on the Edward Snowden documentary, Citizenfour,
