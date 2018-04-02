@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Your Engineers must Speak to Users
+title: Your Engineers Must Speak to Users Too
 subtitle: The team, and your users, will thank you.
 image: /images/engineers-user-testing.jpg
 caption: Photo by [Farrel Nobel](https://unsplash.com/photos/Z9xSPv2TXDc)
