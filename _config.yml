@@ -6,8 +6,8 @@ sass:
   sass_dir: style
   style: compressed
 
-name: "Jimmy Thompson - London-based Engineering Leader"
-description: "Hi, I'm Jimmy, an engineering leader based in London"
+name: "Jimmy Thompson - London-based Software Engineer"
+description: "Hi, I'm Jimmy, an engineering leader based in London. Currently at Freetrade, previously at ThoughtWorks. I build stuff and talk about it sometimes."
 
 twitter: https://twitter.com/jimmythompson
 github: https://github.com/jimmythompson
