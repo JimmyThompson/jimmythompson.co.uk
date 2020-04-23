@@ -1,12 +1,15 @@
+@import "./text";
+
 .header {
   @extend .column;
   @extend .l-2-12;
 
-  margin-top: 24px;
+  font-family: $header-font-family;
+  margin-top: 1rem;
 }
 
 .logo {
-  color: #424242;
+  color: #4d4d98;
   display: block;
   font-weight: bold;
   font-size: 1.2em;
@@ -18,7 +21,7 @@
   }
 
   &:visited {
-    color: #424242;
+    color: #4d4d98;
   }
 }
 

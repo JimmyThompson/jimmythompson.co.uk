@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Your Engineers Must Speak to Users Too
-subtitle: The team, and your users, will thank you.
-image: /images/engineers-user-testing.jpg
-caption: Photo by [Farrel Nobel](https://unsplash.com/photos/Z9xSPv2TXDc)
 description: |
                 I rarely see engineers invited to do user research, and even when they are
                 invited they're reluctant. When everyone is involved in speaking to users,

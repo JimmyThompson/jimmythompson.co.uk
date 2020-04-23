@@ -1,6 +1,7 @@
 ---
 ---
 
+@import "text";
 @import "responsive";
 @import "grid";
 @import "header";
@@ -12,27 +13,31 @@
 }
 
 body {
-	color: #424242;
-	background: #fafafa;
-	font-size: 1em;
-	font-family: "Dejavu Sans Mono", Courier, monospace;
+  color: #424242;
+  background: #fafafa;
+  font-size: 1.2rem;
+  font-family: $main-font-family;
   padding: 16px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+}
+
 a {
-  color: #0921ea;
+  color: #2333c4;
 
   &:hover {
     text-decoration: none;
   }
 
   &:visited {
-    color: #0921ea;
+    color: #2333c4;
   }
 }
 
 .fixed-width {
-  max-width: 800px;
+  max-width: 860px;
   margin: 0 auto;
 }
 
@@ -43,4 +48,8 @@ a {
 .content {
   @extend .column;
   @extend .l-10-12;
+}
+
+.masthead {
+  margin: 1rem 0 0;
 }
